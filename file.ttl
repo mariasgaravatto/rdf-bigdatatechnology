@@ -5,5 +5,5 @@
 
 <https://mariasgaravatto.be/#me> a foaf:Person, foaf:Agent ;
                                 foaf:name "Maria Sgaravatto"^^xsd:string ;
-				foaf:follows <https://pietercolpaert.be/teaching/bdt/#2024-2025> ;
+				schema: attendee https://pietercolpaert.be/teaching/bdt/#2024-2025;
                                 foaf:knows<https://example.com/kent_zhang>.
