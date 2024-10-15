@@ -1,10 +1,9 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix course: <https://pietercolpaert.be/teaching/bdt/#2024-2025>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org>.
 
 <https://mariasgaravatto.be/#me> a foaf:Person, foaf:Agent ;
                                 foaf:name "Maria Sgaravatto"^^xsd:string ;
 				foaf:follows <https://pietercolpaert.be/teaching/bdt/#2024-2025> ;
-                                foaf:knows [
-                                     foaf:name "Unknown Person"^^xsd:string
-                                ].
-schema.org/attendee
+                                foaf:knows<https://example.com/kent_zhang>.
